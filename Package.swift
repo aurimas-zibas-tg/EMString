@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
     name: "EMString",
+    platforms: [
+        .iOS(.v15),
+    ],
     products: [
         .library(
             name: "EMString",
@@ -12,9 +15,7 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "EMString",
-            path: "EMString",
-            publicHeadersPath: "include"
+            name: "EMString"
         )
     ]
 )

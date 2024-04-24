@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/TanguyAladenise/EMString.git", :tag => '0.3.0' }
   s.social_media_url = 'https://twitter.com/TanguyAladenise'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '15.0'
   s.requires_arc = true
 
-  s.source_files = 'EMString'
+  s.source_files = 'Sources/EMString'
 end
